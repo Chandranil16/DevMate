@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000/api";
+const API_BASE = "https://devmate-code-backend.onrender.com/api";
 
 export async function getReview(userCode) {
   try {
