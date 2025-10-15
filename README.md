@@ -1,13 +1,13 @@
 # 🧠 "DevMate" – AI-Powered Code Reviewer
 
-**Devmate** is an intelligent, AI-powered instant code reviewer that analyzes any given code.
+**DevMate** is an intelligent, AI-powered instant code reviewer that analyzes any given code.
 It provides structured reviews, actionable insights, and generates an improved version of your code — all within a sleek, responsive user interface.
 
 ---
 
 ## 🚀 Features
 
-- **✅ AI-Powered Code Review – Get detailed, structured feedback including:**
+- **🤖 AI-Powered Code Review – Get detailed, structured feedback including:**
 
    - Overall Review
 
@@ -49,12 +49,13 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 ---
 
-## 🛠️ Tech Stack
+## 🛡️ Technologies Used
 
-**Area**	**Technology**
-**Frontend**	React.js, Tailwind CSS
-**Backend**	Node.js, Express.js
-**LLM Model**	**Gemini-2.5-Flash** for Few-shot prompting to return accurate and consistent code reviews
+  **Frontend**: React, Tailwind CSS, Axios, React-icons, markdown, CORS
+
+  **Backend**: Node.js, Express.js, nodemon, CORS
+
+  **AI Prompting**: Few-shot templates to return accurate and consistent code reviews using **gemini-2.5-flash**
 
 ---
 
@@ -62,7 +63,7 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 - 🧩 Users paste or type their code in the built-in editor.
 
-- 🧠 Backend sends the code to the Gemini 2.5 Flash LLM with structured few-shot prompts.
+- 🧠 Backend sends the code to the Gemini-2.5-Flash LLM with structured few-shot prompts.
 
 - 📋 AI responds with a full review: overview, issues, suggestions, fixes, and rating.
 
