@@ -51,11 +51,11 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 ## 🛡️ Technologies Used
 
-  **Frontend**: React, Tailwind CSS, Axios, React-icons, markdown, CORS
+- **Frontend**: React, Tailwind CSS, Axios, React-icons, markdown, CORS
 
-  **Backend**: Node.js, Express.js, nodemon, CORS
+- **Backend**: Node.js, Express.js, nodemon, CORS
 
-  **AI Prompting**: Few-shot templates to return accurate and consistent code reviews using **gemini-2.5-flash**
+- **AI Prompting**: Few-shot templates to return accurate and consistent code reviews using **gemini-2.5-flash**
 
 ---
 
