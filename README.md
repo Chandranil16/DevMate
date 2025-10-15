@@ -51,11 +51,11 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 ## 🛡️ Technologies Used
 
-- **Frontend**: React, Tailwind CSS, Axios, React-icons, markdown, CORS
+- **Frontend**: React.js, Tailwind CSS, Axios, lucide-react icons, react-syntax-highlighter,monaco-editor-react, CORS
 
-- **Backend**: Node.js, Express.js, nodemon, CORS
+- **Backend**: Node.js, Express.js, nodemon, dotenv, CORS
 
-- **AI Prompting**: Few-shot templates to return accurate and consistent code reviews using **gemini-2.5-flash**
+- **AI Prompting**: Few-shot examples to return accurate and consistent code reviews using **gemini-2.5-flash**
 
 ---
 
@@ -63,9 +63,9 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 - 🧩 Users paste or type their code in the built-in editor.
 
-- 🧠 Backend sends the code to the Gemini-2.5-Flash LLM with structured few-shot prompts.
+- 🧠 Backend sends the code to the Gemini-2.5-Flash LLM with structured few-shot examples.
 
-- 📋 AI responds with a full review: overview, issues, suggestions, fixes, and rating.
+- 📋 Model responds with a full review: overview, issues, suggestions, fixes, and rating.
 
 - 💡 Frontend displays the results across the Review and Fixes panels.
 
@@ -75,7 +75,7 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 ## 🤖 AI Prompting Strategy
 
-- Devmate uses few-shot prompting to train the LLM to behave as an expert code reviewer.
+- **DevMate** uses few-shot prompting to train the LLM to behave as an expert code reviewer.
   This ensures:
 
   - Accurate identification of bugs and bad practices
@@ -84,7 +84,7 @@ It provides structured reviews, actionable insights, and generates an improved v
 
   - Balanced suggestions with clear examples
 
-  - Language detection for proper syntax highlighting in fixes
+  - Language detection for proper syntax highlighting in code
 
 ---
 
