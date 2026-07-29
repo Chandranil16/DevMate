@@ -45,7 +45,7 @@ It provides structured reviews, actionable insights, and generates an improved v
  
 - **🧠 Few-Shot Prompting**
 
-   - Integrates **Gemini-2.5-Flash** LLM with carefully designed few-shot examples to ensure context-aware and high-quality code reviews.
+   - Integrates **Gemini-3.5-Flash-lite** LLM with carefully designed few-shot examples to ensure context-aware and high-quality code reviews.
 
 ---
 
@@ -55,7 +55,7 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 - **Backend**: Node.js, Express.js, nodemon, dotenv, CORS
 
-- **AI Prompting**: Few-shot examples to return accurate and consistent code reviews using **gemini-2.5-flash**
+- **AI Prompting**: Few-shot examples to return accurate and consistent code reviews using **gemini-3.5-flash-lite**
 
 ---
 
@@ -63,7 +63,7 @@ It provides structured reviews, actionable insights, and generates an improved v
 
 - 🧩 Users paste or type their code in the built-in editor.
 
-- 🧠 Backend sends the code to the Gemini-2.5-Flash LLM with structured few-shot examples.
+- 🧠 Backend sends the code to the Gemini-3.5-Flash-lite LLM with structured few-shot examples.
 
 - 📋 Model responds with a full review: overview, issues, suggestions, fixes, and rating.
 
