@@ -485,7 +485,7 @@ Now review the following code:
 
     const finalPrompt = `${systemPrompt}\n${userCode}`;
 
-    const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-3.5-flash-lite" });
     const result = await model.generateContent(finalPrompt);
     const text = result.response.text();
 
